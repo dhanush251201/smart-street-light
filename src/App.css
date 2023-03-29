@@ -2,6 +2,76 @@
   text-align: center;
 }
 
+.MainDiv{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+.Header{
+  width:100%;
+  background-color: rgb(245, 245, 245);
+  height:70px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.container1{
+  width:250px;
+  height: 60vh;
+  margin-top: 100px;
+  display:flex;
+  flex-direction:column;
+  padding: 40px;
+  justify-content:space-around;
+  align-items:center;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.container2{
+  margin-top: 100px;
+  height: 60vh;
+  width:250px;
+  padding: 40px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.container3{
+  margin-top: 100px;
+  height: 60vh;
+  width:250px;
+  padding: 40px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.Progress{
+  width: 80%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.Progress1{
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
